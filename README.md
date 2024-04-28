@@ -11,6 +11,6 @@ It uses the Amsterdam Data API (https://api.data.amsterdam.nl/v1/docs/index.html
 - Enter a street name.
 - After execution a filed named: ``output.csv`` should appear.
 
-**Pitfalls: **
+**Pitfalls**
 - The street name might be case sensitive.
 - You can't have the output.csv open while loading new street data.
