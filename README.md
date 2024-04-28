@@ -10,7 +10,7 @@ It uses the Amsterdam Data API (https://api.data.amsterdam.nl/v1/docs/index.html
 **Usage**
 - Run the ``main`` file.
 - Enter a street name.
-- After execution a filed named: ``output.csv`` should appear.
+- After execution a file named: ``output.csv`` should appear.
 
 **Pitfalls**
 - The street name might be case sensitive.
