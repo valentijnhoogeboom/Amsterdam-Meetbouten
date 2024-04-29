@@ -1,17 +1,17 @@
-This script creates a spreadsheet containing all data of all 'meetbouten' in a street.
-It uses the Amsterdam Data API (https://api.data.amsterdam.nl/v1/docs/index.html) to fetch the data per street. The data will be saved as output.csv
+Dit script maakt een spreadsheet met alle gegevens van alle meetbouten in een straat.
+Het gebruikt de Amsterdam Data API (https://api.data.amsterdam.nl/v1/docs/index.html) om de gegevens per straat op te halen. De gegevens worden opgeslagen als output.csv
 
-**Prerequisites**
-- Install Python 3.12. This can either be done through the Microsoft Store App or using the link: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US
-- Restart your PC after installation of Python.
-- Download this script using the Code button and unzip it.
-- Run the ``setup`` script.
+**Eisen**
+- Installeer Python 3.12. Dit kan via de Microsoft Store App of via deze link: https://apps.microsoft.com/detail/9ncvdn91xzqp?hl=en-US&gl=US
+- Start je pc opnieuw op na de installatie van Python.
+- Download dit script met de knop Code en pak het uit.
+- Voer het ``setup`` script uit.
 
-**Usage**
-- Run the ``main`` file.
-- Enter a street name.
-- After execution a file named: ``output.csv`` should appear.
+**Gebruik**
+- Voer het ``main`` bestand uit.
+- Voer een straatnaam in.
+- Na uitvoering zou er een bestand moeten verschijnen met de naam: ``output.csv``.
 
-**Pitfalls**
-- The street name might be case sensitive.
-- You can't have the output.csv open while loading new street data.
+**Valkuilen**
+- De straatnaam kan hoofdlettergevoelig zijn.
+- Je kunt output.csv niet geopend hebben terwijl je het programma uitvoert.
